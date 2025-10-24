@@ -1,0 +1,18 @@
+{
+  "name": "cineflix",
+  "version": "1.0.0",
+  "description": "Multi-language movie streaming platform",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["movie", "streaming", "multi-language", "subscription"],
+  "author": "CineFlix Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
